@@ -48,7 +48,8 @@ const jobExperience = [
     id: "2",
     role: "UI Developer",
     company: "Bentray Technologies",
-    companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54En3GMb-t6CJWsFSjiVUX5xZA10W0Aso5E03N5mOjZU4nF10KGKGifBOjaYI7Ae5fqs&usqp=CAU",
+    companyLogo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54En3GMb-t6CJWsFSjiVUX5xZA10W0Aso5E03N5mOjZU4nF10KGKGifBOjaYI7Ae5fqs&usqp=CAU",
     from: "Jan 2020",
     to: "Feb 2021",
     type: "Full-time",
@@ -169,6 +170,21 @@ const certifications = [
     id: 4,
     name: "Textual Elements of Design: Fonts, Typography, and Spacing ",
     issuedFrom: "University of Colorado (Coursera)",
+  },
+  {
+    id: 5,
+    name: "Design Thinking: The Ultimate Guide",
+    issuedFrom: "Interaction Design Foundation",
+  },
+  {
+    id: 6,
+    name: "Human-Computer Interaction - HCI",
+    issuedFrom: "Interaction Design Foundation",
+  },
+  {
+    id: 7,
+    name: " User Experience: The Beginner’s Guide",
+    issuedFrom: "Interaction Design Foundation",
   },
 ];
 
