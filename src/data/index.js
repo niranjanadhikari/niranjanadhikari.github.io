@@ -39,10 +39,11 @@ const jobExperience = [
     company: "Optimum Futurist",
     companyLogo:
       "https://d25hn4jiqx5f7l.cloudfront.net/companies/logos/medium/optimum-futurist-tech-inc_1613727488.png?1613727488",
-    from: "Mar 2021",
+    from: "Feb 2021",
     to: "present",
     type: "Full-time",
-    duration: "9 mos+",
+    duration: "1 year 2 mos",
+    companyWeb: "https://optimumfuturist.com/",
   },
   {
     id: "2",
@@ -54,6 +55,7 @@ const jobExperience = [
     to: "Feb 2021",
     type: "Full-time",
     duration: "1yr 2 mos",
+    companyWeb: "https://bentraytech.com/",
   },
   {
     id: "3",
@@ -65,6 +67,7 @@ const jobExperience = [
     to: "Jul 2020",
     type: "Part-time",
     duration: "3 mos",
+    companyWeb: "https://www.digitalghumti.com/",
   },
   {
     id: "4",
@@ -75,6 +78,7 @@ const jobExperience = [
     to: "Jul 2019",
     type: "Part-time",
     duration: "3 mos",
+    companyWeb: "http://metashrine.com/",
   },
   {
     id: "5",
@@ -85,6 +89,7 @@ const jobExperience = [
     to: "May 2019",
     type: "Intern",
     duration: "4 mos",
+    companyWeb: "https://www.ourperfectcreation.com/",
   },
 ];
 

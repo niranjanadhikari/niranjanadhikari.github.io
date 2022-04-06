@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Title from "../Title";
 
 import blankCompany from "../../images/blankCompany.svg";
@@ -11,8 +12,24 @@ const index = () => {
       <div className="mt-10">
         <div className="grid md:grid-cols-3 gap-4">
           {jobExperience.map(
-            ({ id, role, company, from, to, duration, type, companyLogo }) => (
-              <div key={id} className="shadow rounded-md p-4">
+            ({
+              id,
+              role,
+              company,
+              from,
+              to,
+              duration,
+              type,
+              companyLogo,
+              companyWeb,
+            }) => (
+              <Link
+                external
+                to={companyWeb}
+                key={id}
+                target="_blank"
+                className="shadow rounded-md p-4 hover:shadow-md"
+              >
                 {companyLogo ? (
                   <img
                     className="w-10 h-10 rounded-md mb-2"
@@ -34,7 +51,7 @@ const index = () => {
                 <p className="text-sm text-gray-400">
                   {`${from} - ${to} ⌛ ${duration}`}
                 </p>
-              </div>
+              </Link>
             )
           )}
         </div>
