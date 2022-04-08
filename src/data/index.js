@@ -40,7 +40,7 @@ const jobExperience = [
     companyLogo:
       "https://d25hn4jiqx5f7l.cloudfront.net/companies/logos/medium/optimum-futurist-tech-inc_1613727488.png?1613727488",
     from: "Feb 2021",
-    to: "present",
+    to: "Apr 2022",
     type: "Full-time",
     duration: "1 year 2 mos",
     companyWeb: "https://optimumfuturist.com/",
@@ -64,7 +64,7 @@ const jobExperience = [
     companyLogo:
       "https://i.pinimg.com/280x280_RS/56/a5/bb/56a5bbc2d0f21b83dd10d63355f0e8e7.jpg",
     from: "May 2020",
-    to: "Jul 2020",
+    to: "Aug 2020",
     type: "Part-time",
     duration: "3 mos",
     companyWeb: "https://www.digitalghumti.com/",
@@ -75,7 +75,7 @@ const jobExperience = [
     company: "Metashrine",
     companyLogo: "",
     from: "May 2019",
-    to: "Jul 2019",
+    to: "Aug 2019",
     type: "Part-time",
     duration: "3 mos",
     companyWeb: "http://metashrine.com/",

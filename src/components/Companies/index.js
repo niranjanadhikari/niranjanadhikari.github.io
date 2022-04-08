@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
 import Title from "../Title";
+import dayjs from "dayjs";
 
 import blankCompany from "../../images/blankCompany.svg";
 import { jobExperience } from "../../data";
 
 const index = () => {
+  var duration = require("dayjs/plugin/duration");
+  dayjs.extend(duration);
+  const a = "";
   return (
     <div className="py-16">
       <Title title="Companies I've worked for" />
@@ -43,14 +47,19 @@ const index = () => {
                     alt="placeholder company"
                   />
                 )}
-
                 <p className="font-medium text-xl md:text-2xl">{role}</p>
                 <p className="text-base text-gray-600">
                   {`${company} | ${type}`}
                 </p>
-                <p className="text-sm text-gray-400">
-                  {`${from} - ${to} ⌛ ${duration}`}
+                {/* TODO : ADD todays date */}
+                {/* {(a = to === "present" ? "Apr 2022" : to)}
+                {console.log(a)} */}
+                <p className="text-sm text-gray-500">
+                  {`${from} - ${to} ⌛ ${
+                    dayjs(to).diff(from, "months")
+                  }  months`}
                 </p>
+                <p>{/* {dayjs.duration(100)} */}</p>
               </Link>
             )
           )}
