@@ -55,9 +55,7 @@ const index = () => {
                 {/* {(a = to === "present" ? "Apr 2022" : to)}
                 {console.log(a)} */}
                 <p className="text-sm text-gray-500">
-                  {`${from} - ${to} ⌛ ${
-                    dayjs(to).diff(from, "months")
-                  }  months`}
+                  {`${from} - ${to} ⌛ ${duration}`}
                 </p>
                 <p>{/* {dayjs.duration(100)} */}</p>
               </Link>
