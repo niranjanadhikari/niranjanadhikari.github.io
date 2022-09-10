@@ -28,11 +28,23 @@ const contactList = [
     id: 3,
     title: "Address",
     icon: <FaMapMarkerAlt />,
-    value: "Tikathali - 05, Lalitpur, Nepal",
+    value: "Sanagaun-06, Lalitpur, Nepal",
   },
 ];
 
 const jobExperience = [
+  {
+    id: "101",
+    role: "UX Designer",
+    company: "Leapfrog Technology",
+    companyLogo:
+      "https://media-exp1.licdn.com/dms/image/C4D0BAQEQAk5ihw6lJw/company-logo_200_200/0/1625457587139?e=1671062400&v=beta&t=WPTdV2KV15T3qmvV2LRhqOC10Zrprjc2s5OyeDSqkpU",
+    from: "Apr 2022",
+    to: "Present",
+    type: "Full-time",
+    duration: "5 months",
+    companyWeb: "https://optimumfuturist.com/",
+  },
   {
     id: "1",
     role: "UX Designer",
@@ -42,7 +54,7 @@ const jobExperience = [
     from: "Feb 2021",
     to: "Apr 2022",
     type: "Full-time",
-    duration: "1 year 2 mos",
+    duration: "1 year 2 months",
     companyWeb: "https://optimumfuturist.com/",
   },
   {
@@ -54,7 +66,7 @@ const jobExperience = [
     from: "Jan 2020",
     to: "Feb 2021",
     type: "Full-time",
-    duration: "1yr 2 mos",
+    duration: "1yr 2 months",
     companyWeb: "https://bentraytech.com/",
   },
   {
@@ -66,7 +78,7 @@ const jobExperience = [
     from: "May 2020",
     to: "Aug 2020",
     type: "Part-time",
-    duration: "3 mos",
+    duration: "3 months",
     companyWeb: "https://www.digitalghumti.com/",
   },
   {
@@ -77,7 +89,7 @@ const jobExperience = [
     from: "May 2019",
     to: "Aug 2019",
     type: "Part-time",
-    duration: "3 mos",
+    duration: "3 months",
     companyWeb: "http://metashrine.com/",
   },
   {
@@ -88,7 +100,7 @@ const jobExperience = [
     from: "Feb 2019",
     to: "May 2019",
     type: "Intern",
-    duration: "4 mos",
+    duration: "4 months",
     companyWeb: "https://www.ourperfectcreation.com/",
   },
 ];
